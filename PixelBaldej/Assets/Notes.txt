@@ -1,0 +1,8 @@
+Player prefs:
+1) int interimScore
+2) int interimDifficultyLevel
+3) int isItGameAfterAd (0 - false, 1 - true)
+
+4) int bestScore
+
+5) int wasHintShown (0 - false, 1 - true)

@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3598150046060873025
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3598150046060873024}
+  - component: {fileID: 2569657165008050550}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3598150046060873024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598150046060873025}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2569657165008050550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3598150046060873025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd9a26741fa39e4893045fe3385a857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainTheme1
+    audioClip: {fileID: 8300000, guid: 9f7156f214e3dbb42b179d1a9c6f4df8, type: 3}
+    pitch: 1
+    volume: 0.1
+    loop: 1
+    source: {fileID: 0}
+  - name: MainTheme2
+    audioClip: {fileID: 8300000, guid: e39a90ae455a0ca4b9d24a814a5229f8, type: 3}
+    pitch: 1
+    volume: 0.1
+    loop: 1
+    source: {fileID: 0}
+  - name: Burst
+    audioClip: {fileID: 8300000, guid: c00238325d60fb045b79bf7850afea39, type: 3}
+    pitch: 1
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Click
+    audioClip: {fileID: 8300000, guid: 484dc0cd998f71b42aa40e2751a3533c, type: 3}
+    pitch: 1
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: Explosion
+    audioClip: {fileID: 8300000, guid: 94c056b35dfa6fe43953d93d789c185a, type: 3}
+    pitch: 1
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: FallInHole
+    audioClip: {fileID: 8300000, guid: 28a6a5db0182f1945a2248854d5fe2d5, type: 3}
+    pitch: 1
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: PixelBaldej
+    audioClip: {fileID: 8300000, guid: 816f3b4c53031fe4498b033ab0304b99, type: 3}
+    pitch: 1
+    volume: 0.9
+    loop: 0
+    source: {fileID: 0}
+  - name: Reincarnation
+    audioClip: {fileID: 8300000, guid: 8e0c84657fce7164bb2ece57227642f4, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WaveUp
+    audioClip: {fileID: 8300000, guid: 5d29fc1d7fc3a3a4f9646b811e678963, type: 3}
+    pitch: 1
+    volume: 0.6
+    loop: 0
+    source: {fileID: 0}
